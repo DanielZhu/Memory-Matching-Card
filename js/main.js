@@ -71,7 +71,9 @@ $(function () {
       };
     };
 
+    clearInterval(mc.timer);
     mc.gameStarted = false;
+    $('.time-spent').html('00:00:00:000');
     this.addClickEventListener();
   }
   refreshTimer = function () {
@@ -121,7 +123,7 @@ $(function () {
               if (flippedCards.length === 0) {
                 clearInterval(mc.timer);
                 mc.gameStarted = false;
-                $('.time-spent').html('00:00：00:000');
+                $('.time-spent').html('00:00:00:000');
               }
             },
             function (response) {
