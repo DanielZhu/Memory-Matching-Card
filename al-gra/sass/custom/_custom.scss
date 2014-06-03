@@ -30,13 +30,13 @@ body {
   &:focus {
     outline: 0;
   }
-  background-image: url('../images/background.jpg');
 }
 .cards {
   text-align: center;
   vertical-align: middle;
   padding: 20px 10px;
   position: relative;
+  background-image: url('../images/background.jpg');
   li {
     display: inline-block;
   }
@@ -77,6 +77,24 @@ $card-height: 122px;
       font-size: 20px;
       vertical-align: middle;
     }
+  }
+}
+.footer {
+  margin: 20px 0px;
+  font-size: 18px;
+  color: #DDDDDD;
+}
+.game-notice {
+  line-height: 35px;
+  text-align: left;
+  .game-notice-label {
+    font-size: 22px;
+    color: #575757;
+    margin: 0px 10px 0px 0px;
+  }
+  .game-notice-text {
+    font-size: 18px;
+    color: #575757;
   }
 }
 .card-remove {

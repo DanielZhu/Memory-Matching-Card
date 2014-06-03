@@ -27,21 +27,18 @@ body {
 /*-----------------------------
     RESET STYLES
 -----------------------------*/
-/* line 29, ../al-gra/sass/custom/_custom.scss */
-.game {
-  background-image: url("../images/background.jpg");
-}
 /* line 30, ../al-gra/sass/custom/_custom.scss */
 .game:focus {
   outline: 0;
 }
 
-/* line 35, ../al-gra/sass/custom/_custom.scss */
+/* line 34, ../al-gra/sass/custom/_custom.scss */
 .cards {
   text-align: center;
   vertical-align: middle;
   padding: 20px 10px;
   position: relative;
+  background-image: url("../images/background.jpg");
 }
 /* line 40, ../al-gra/sass/custom/_custom.scss */
 .cards li {
@@ -96,11 +93,35 @@ body {
 }
 
 /* line 82, ../al-gra/sass/custom/_custom.scss */
+.footer {
+  margin: 20px 0px;
+  font-size: 18px;
+  color: #DDDDDD;
+}
+
+/* line 87, ../al-gra/sass/custom/_custom.scss */
+.game-notice {
+  line-height: 35px;
+  text-align: left;
+}
+/* line 90, ../al-gra/sass/custom/_custom.scss */
+.game-notice .game-notice-label {
+  font-size: 22px;
+  color: #575757;
+  margin: 0px 10px 0px 0px;
+}
+/* line 95, ../al-gra/sass/custom/_custom.scss */
+.game-notice .game-notice-text {
+  font-size: 18px;
+  color: #575757;
+}
+
+/* line 100, ../al-gra/sass/custom/_custom.scss */
 .card-remove {
   visibility: hidden;
 }
 
-/* line 85, ../al-gra/sass/custom/_custom.scss */
+/* line 103, ../al-gra/sass/custom/_custom.scss */
 .flipped {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -113,7 +134,7 @@ body {
   transition-duration: 0.5s;
 }
 
-/* line 89, ../al-gra/sass/custom/_custom.scss */
+/* line 107, ../al-gra/sass/custom/_custom.scss */
 .flip {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
@@ -126,385 +147,385 @@ body {
   transition-duration: 0.5s;
 }
 
-/* line 93, ../al-gra/sass/custom/_custom.scss */
+/* line 111, ../al-gra/sass/custom/_custom.scss */
 .card_back {
   width: 84px;
   height: 122px;
   background-position: -1px -1px;
 }
 
-/* line 99, ../al-gra/sass/custom/_custom.scss */
+/* line 117, ../al-gra/sass/custom/_custom.scss */
 .card_1 {
   width: 84px;
   height: 122px;
   background-position: -87px -1px;
 }
 
-/* line 105, ../al-gra/sass/custom/_custom.scss */
+/* line 123, ../al-gra/sass/custom/_custom.scss */
 .card_2 {
   width: 84px;
   height: 122px;
   background-position: -173px -1px;
 }
 
-/* line 111, ../al-gra/sass/custom/_custom.scss */
+/* line 129, ../al-gra/sass/custom/_custom.scss */
 .card_3 {
   width: 84px;
   height: 122px;
   background-position: -259px -1px;
 }
 
-/* line 117, ../al-gra/sass/custom/_custom.scss */
+/* line 135, ../al-gra/sass/custom/_custom.scss */
 .card_4 {
   width: 83px;
   height: 122px;
   background-position: -345px -1px;
 }
 
-/* line 123, ../al-gra/sass/custom/_custom.scss */
+/* line 141, ../al-gra/sass/custom/_custom.scss */
 .card_5 {
   width: 84px;
   height: 122px;
   background-position: -430px -1px;
 }
 
-/* line 129, ../al-gra/sass/custom/_custom.scss */
+/* line 147, ../al-gra/sass/custom/_custom.scss */
 .card_6 {
   width: 84px;
   height: 122px;
   background-position: -516px -1px;
 }
 
-/* line 135, ../al-gra/sass/custom/_custom.scss */
+/* line 153, ../al-gra/sass/custom/_custom.scss */
 .card_7 {
   width: 84px;
   height: 122px;
   background-position: -602px -1px;
 }
 
-/* line 141, ../al-gra/sass/custom/_custom.scss */
+/* line 159, ../al-gra/sass/custom/_custom.scss */
 .card_8 {
   width: 83px;
   height: 122px;
   background-position: -1px -125px;
 }
 
-/* line 147, ../al-gra/sass/custom/_custom.scss */
+/* line 165, ../al-gra/sass/custom/_custom.scss */
 .card_9 {
   width: 84px;
   height: 122px;
   background-position: -86px -125px;
 }
 
-/* line 153, ../al-gra/sass/custom/_custom.scss */
+/* line 171, ../al-gra/sass/custom/_custom.scss */
 .card_10 {
   width: 84px;
   height: 122px;
   background-position: -172px -125px;
 }
 
-/* line 159, ../al-gra/sass/custom/_custom.scss */
+/* line 177, ../al-gra/sass/custom/_custom.scss */
 .card_11 {
   width: 84px;
   height: 122px;
   background-position: -258px -125px;
 }
 
-/* line 165, ../al-gra/sass/custom/_custom.scss */
+/* line 183, ../al-gra/sass/custom/_custom.scss */
 .card_12 {
   width: 83px;
   height: 122px;
   background-position: -344px -125px;
 }
 
-/* line 171, ../al-gra/sass/custom/_custom.scss */
+/* line 189, ../al-gra/sass/custom/_custom.scss */
 .card_13 {
   width: 84px;
   height: 122px;
   background-position: -429px -125px;
 }
 
-/* line 177, ../al-gra/sass/custom/_custom.scss */
+/* line 195, ../al-gra/sass/custom/_custom.scss */
 .card_14 {
   width: 84px;
   height: 121px;
   background-position: -515px -125px;
 }
 
-/* line 183, ../al-gra/sass/custom/_custom.scss */
+/* line 201, ../al-gra/sass/custom/_custom.scss */
 .card_15 {
   width: 84px;
   height: 121px;
   background-position: -601px -125px;
 }
 
-/* line 189, ../al-gra/sass/custom/_custom.scss */
+/* line 207, ../al-gra/sass/custom/_custom.scss */
 .card_16 {
   width: 84px;
   height: 121px;
   background-position: -515px -248px;
 }
 
-/* line 195, ../al-gra/sass/custom/_custom.scss */
+/* line 213, ../al-gra/sass/custom/_custom.scss */
 .card_17 {
   width: 83px;
   height: 121px;
   background-position: -601px -248px;
 }
 
-/* line 201, ../al-gra/sass/custom/_custom.scss */
+/* line 219, ../al-gra/sass/custom/_custom.scss */
 .card_18 {
   width: 84px;
   height: 121px;
   background-position: -1px -371px;
 }
 
-/* line 207, ../al-gra/sass/custom/_custom.scss */
+/* line 225, ../al-gra/sass/custom/_custom.scss */
 .card_19 {
   width: 84px;
   height: 121px;
   background-position: -87px -371px;
 }
 
-/* line 213, ../al-gra/sass/custom/_custom.scss */
+/* line 231, ../al-gra/sass/custom/_custom.scss */
 .card_20 {
   width: 84px;
   height: 121px;
   background-position: -173px -371px;
 }
 
-/* line 219, ../al-gra/sass/custom/_custom.scss */
+/* line 237, ../al-gra/sass/custom/_custom.scss */
 .card_21 {
   width: 83px;
   height: 121px;
   background-position: -259px -371px;
 }
 
-/* line 225, ../al-gra/sass/custom/_custom.scss */
+/* line 243, ../al-gra/sass/custom/_custom.scss */
 .card_22 {
   width: 84px;
   height: 121px;
   background-position: -344px -371px;
 }
 
-/* line 231, ../al-gra/sass/custom/_custom.scss */
+/* line 249, ../al-gra/sass/custom/_custom.scss */
 .card_23 {
   width: 84px;
   height: 121px;
   background-position: -430px -371px;
 }
 
-/* line 237, ../al-gra/sass/custom/_custom.scss */
+/* line 255, ../al-gra/sass/custom/_custom.scss */
 .card_24 {
   width: 84px;
   height: 121px;
   background-position: -516px -371px;
 }
 
-/* line 243, ../al-gra/sass/custom/_custom.scss */
+/* line 261, ../al-gra/sass/custom/_custom.scss */
 .card_25 {
   width: 83px;
   height: 121px;
   background-position: -602px -371px;
 }
 
-/* line 249, ../al-gra/sass/custom/_custom.scss */
+/* line 267, ../al-gra/sass/custom/_custom.scss */
 .card_26 {
   width: 84px;
   height: 121px;
   background-position: -1px -494px;
 }
 
-/* line 255, ../al-gra/sass/custom/_custom.scss */
+/* line 273, ../al-gra/sass/custom/_custom.scss */
 .card_27 {
   width: 84px;
   height: 122px;
   background-position: -87px -494px;
 }
 
-/* line 261, ../al-gra/sass/custom/_custom.scss */
+/* line 279, ../al-gra/sass/custom/_custom.scss */
 .card_28 {
   width: 84px;
   height: 122px;
   background-position: -173px -494px;
 }
 
-/* line 267, ../al-gra/sass/custom/_custom.scss */
+/* line 285, ../al-gra/sass/custom/_custom.scss */
 .card_29 {
   width: 84px;
   height: 122px;
   background-position: -259px -494px;
 }
 
-/* line 273, ../al-gra/sass/custom/_custom.scss */
+/* line 291, ../al-gra/sass/custom/_custom.scss */
 .card_30 {
   width: 83px;
   height: 122px;
   background-position: -345px -494px;
 }
 
-/* line 279, ../al-gra/sass/custom/_custom.scss */
+/* line 297, ../al-gra/sass/custom/_custom.scss */
 .card_31 {
   width: 84px;
   height: 122px;
   background-position: -430px -494px;
 }
 
-/* line 285, ../al-gra/sass/custom/_custom.scss */
+/* line 303, ../al-gra/sass/custom/_custom.scss */
 .card_32 {
   width: 84px;
   height: 122px;
   background-position: -516px -494px;
 }
 
-/* line 291, ../al-gra/sass/custom/_custom.scss */
+/* line 309, ../al-gra/sass/custom/_custom.scss */
 .card_33 {
   width: 84px;
   height: 122px;
   background-position: -602px -494px;
 }
 
-/* line 297, ../al-gra/sass/custom/_custom.scss */
+/* line 315, ../al-gra/sass/custom/_custom.scss */
 .card_34 {
   width: 83px;
   height: 122px;
   background-position: -1px -618px;
 }
 
-/* line 303, ../al-gra/sass/custom/_custom.scss */
+/* line 321, ../al-gra/sass/custom/_custom.scss */
 .card_35 {
   width: 84px;
   height: 122px;
   background-position: -86px -618px;
 }
 
-/* line 309, ../al-gra/sass/custom/_custom.scss */
+/* line 327, ../al-gra/sass/custom/_custom.scss */
 .card_36 {
   width: 84px;
   height: 122px;
   background-position: -172px -618px;
 }
 
-/* line 315, ../al-gra/sass/custom/_custom.scss */
+/* line 333, ../al-gra/sass/custom/_custom.scss */
 .card_37 {
   width: 84px;
   height: 122px;
   background-position: -258px -618px;
 }
 
-/* line 321, ../al-gra/sass/custom/_custom.scss */
+/* line 339, ../al-gra/sass/custom/_custom.scss */
 .card_38 {
   width: 83px;
   height: 122px;
   background-position: -344px -618px;
 }
 
-/* line 327, ../al-gra/sass/custom/_custom.scss */
+/* line 345, ../al-gra/sass/custom/_custom.scss */
 .card_39 {
   width: 84px;
   height: 122px;
   background-position: -429px -618px;
 }
 
-/* line 333, ../al-gra/sass/custom/_custom.scss */
+/* line 351, ../al-gra/sass/custom/_custom.scss */
 .card_40 {
   width: 84px;
   height: 122px;
   background-position: -515px -618px;
 }
 
-/* line 339, ../al-gra/sass/custom/_custom.scss */
+/* line 357, ../al-gra/sass/custom/_custom.scss */
 .card_41 {
   width: 84px;
   height: 122px;
   background-position: -601px -618px;
 }
 
-/* line 345, ../al-gra/sass/custom/_custom.scss */
+/* line 363, ../al-gra/sass/custom/_custom.scss */
 .card_42 {
   width: 84px;
   height: 122px;
   background-position: -688px -1px;
 }
 
-/* line 351, ../al-gra/sass/custom/_custom.scss */
+/* line 369, ../al-gra/sass/custom/_custom.scss */
 .card_43 {
   width: 83px;
   height: 122px;
   background-position: -687px -125px;
 }
 
-/* line 357, ../al-gra/sass/custom/_custom.scss */
+/* line 375, ../al-gra/sass/custom/_custom.scss */
 .card_44 {
   width: 84px;
   height: 122px;
   background-position: -687px -249px;
 }
 
-/* line 363, ../al-gra/sass/custom/_custom.scss */
+/* line 381, ../al-gra/sass/custom/_custom.scss */
 .card_45 {
   width: 84px;
   height: 122px;
   background-position: -688px -373px;
 }
 
-/* line 369, ../al-gra/sass/custom/_custom.scss */
+/* line 387, ../al-gra/sass/custom/_custom.scss */
 .card_46 {
   width: 84px;
   height: 122px;
   background-position: -688px -497px;
 }
 
-/* line 375, ../al-gra/sass/custom/_custom.scss */
+/* line 393, ../al-gra/sass/custom/_custom.scss */
 .card_47 {
   width: 83px;
   height: 122px;
   background-position: -687px -621px;
 }
 
-/* line 381, ../al-gra/sass/custom/_custom.scss */
+/* line 399, ../al-gra/sass/custom/_custom.scss */
 .card_48 {
   width: 84px;
   height: 122px;
   background-position: -1px -745px;
 }
 
-/* line 387, ../al-gra/sass/custom/_custom.scss */
+/* line 405, ../al-gra/sass/custom/_custom.scss */
 .card_49 {
   width: 84px;
   height: 122px;
   background-position: -87px -745px;
 }
 
-/* line 393, ../al-gra/sass/custom/_custom.scss */
+/* line 411, ../al-gra/sass/custom/_custom.scss */
 .card_50 {
   width: 84px;
   height: 122px;
   background-position: -173px -745px;
 }
 
-/* line 399, ../al-gra/sass/custom/_custom.scss */
+/* line 417, ../al-gra/sass/custom/_custom.scss */
 .card_51 {
   width: 83px;
   height: 122px;
   background-position: -259px -745px;
 }
 
-/* line 405, ../al-gra/sass/custom/_custom.scss */
+/* line 423, ../al-gra/sass/custom/_custom.scss */
 .card_52 {
   width: 84px;
   height: 122px;
   background-position: -344px -745px;
 }
 
-/* line 411, ../al-gra/sass/custom/_custom.scss */
+/* line 429, ../al-gra/sass/custom/_custom.scss */
 .card_53 {
   width: 84px;
   height: 121px;
   background-position: -430px -745px;
 }
 
-/* line 417, ../al-gra/sass/custom/_custom.scss */
+/* line 435, ../al-gra/sass/custom/_custom.scss */
 .card_54 {
   width: 84px;
   height: 121px;
