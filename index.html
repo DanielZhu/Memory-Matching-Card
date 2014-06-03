@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html ng-app="game2048">
+<head>
+  <meta charset="utf-8">
+  <title>Matching Card Created by Dan</title>
+  <meta name="author" content="Mengdan Zhu  (Daniel Zhu)">
+  <link href="/favicon.png" rel="shortcut icon">
+  <link rel="stylesheet" href="../libs/foundation/css/foundation.css" />
+  <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+<!--   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32456518-1', 'staydan.com');
+    ga('send', 'pageview');
+
+  </script> -->
+
+  <!-- Third party libraries -->
+  <script src="../libs/ba-debug.js"></script>
+  <script src="../libs/jQuery/2.0.3/jquery-2.0.3.js"></script>
+  <script src="../libs/foundation/js/foundation.min.js"></script>
+  <script src="../libs/vendor/modernizr.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body tabindex="1" >
+  <div class="row">
+    <div class="large-5 small-5 columns">
+      <h2>Memory Matching Card</h2>
+    </div>
+    <div class="large-7 small-7 columns text-right">
+      <h2>Time: <span class="time-spent">00:00:00:000</span></h2>
+    </div>
+  </div>
+  <div class="row">
+   <div class="large-2 small-4 columns">
+      <div class="row collapse">
+        <div class="small-4 columns">
+          <span class="radius prefix">Size</span>
+        </div>
+        <div class="small-3 columns">
+          <input type="text" id="rowSize" value="4">
+        </div>
+        <div class="small-2 columns">
+          <span class="postfix prefix">X</span>
+        </div>
+        <div class="small-3 columns">
+          <input type="text" id="columnSize" value="5">
+        </div>
+      </div>
+    </div>
+    <div class="large-3 small-2 columns text-right">
+      <a href="#" class="button small round" id="newGame">New Game</a>
+    </div>
+  </div>
+  <div class="row game">
+    <div class="large-12 small-12 columns">
+      <div class="cards"></div>
+    </div>
+<!--     <div class="game-notice">
+      <div>
+        <span class="game-notice-label">How to play: </span>
+        <span class="game-notice-text">Player A: <code>W</code>, <code>S</code>; Player B: <code>Up</code>, <code>Down</code>. <br>Try to move your slider block to bounce the small ball using the key, who let the ball pass your deadline, you lose. The score in the header bar show the latest winner.</span>
+      </div>
+      <hr>
+      <div>
+        <span class="game-notice-label">Read Me: </span>
+        <span class="game-notice-text">I guess that everyone has played this game in your real world, such as Tom's World. It's simple and funny, so I re-created it by HTML5 and CSS3 because of my great interests. Welcome to send your feedback to me. Thanks.</span>
+      </div>
+      <hr>
+      <div>
+        <span class="game-notice-text">Created by <a href="http://staydan.com" target="_blank">Zhu, Meng-Dan(Daniel)</a>. The source code can be found on <a href="https://github.com/DanielZhu/Game-Ping-Pang" target="_blank">Github</a></span>
+      </div>
+      <hr>
+        <div style="text-align: center;">
+          <span class="game-notice-text">
+            <a href="mailto: enterzhu@gmail.com" class="button"><img src="images/mail.png" /></a>
+           </span>
+        </div>
+    </div>
+ --> 
+  </div>
+
+</body>
+</html>
